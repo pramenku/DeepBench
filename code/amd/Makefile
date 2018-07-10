@@ -16,7 +16,7 @@ MIOPEN_LIB?=MIOpen
 #DeepBench
 DEEPBENCH_INC=${SOURCE_DIR}/../kernels
 
-RCCL_INC_DIR=${ROCM_PATH}/rccl/include
+RCCL_INC_DIR=${ROCM_PATH}/rccl/include/rccl
 RCCL_LIB_DIR=${ROCM_PATH}/rccl/lib
 RCCL_LIB=rccl
 
